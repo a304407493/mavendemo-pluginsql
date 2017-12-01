@@ -41,7 +41,7 @@
 			<!-- sql插件mysql的url  错误写法没有斜杠 -->
 			<!-- <maven.plugin.sql.url>jdbc:mysql://localhost:3306?useUnicode=true&amp;characterEncoding=UTF-8</maven.plugin.sql.url> -->
 			<!-- sql插件sql命令创建数据库 -->
-			<maven.plugin.sql.command.create.database>create database yourdb1</maven.plugin.sql.command.create.database>
+			<maven.plugin.sql.command.create.database>create database yourdb</maven.plugin.sql.command.create.database>
 			<!-- sql插件sql命令创建数据表  注意加数据库前缀 -->
 			<maven.plugin.sql.command.create.table>create table yourdb.person(id int)</maven.plugin.sql.command.create.table>
 			<!-- sql插件sql文件删除数据表  注意加数据库前缀 -->
